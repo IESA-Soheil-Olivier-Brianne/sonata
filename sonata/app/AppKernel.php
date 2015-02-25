@@ -39,6 +39,7 @@ class AppKernel extends Kernel
             new Application\Sonata\PageBundle\ApplicationSonataPageBundle(),
             new Application\Sonata\UserBundle\ApplicationSonataUserBundle(),
             new Application\Sonata\MediaBundle\ApplicationSonataMediaBundle(),
+            new BeeFitBundle\BeeFitBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
